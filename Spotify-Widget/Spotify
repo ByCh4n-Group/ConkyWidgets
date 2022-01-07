@@ -1,6 +1,8 @@
 ############
 # Settings #
 ############
+#Discord: Mhykol#0407
+
 background no
 update_interval 1
 override_utf8_locale yes
@@ -34,7 +36,7 @@ TEXT
 
 ${font Oswald:bold:size=8}${color1}NOW PLAYING ${color2}${hr 2}
 
-	${image ~/.conky/Spotify/spotify_icon.png -p 0,80 -s 80x80}\
+	${image ~/.conky/Spotify-Widget/spotify_icon.png -p 0,80 -s 80x80}\
 	${goto 95}${voffset -8}${font Adele Medium:size=22}${exec /home/$USER/.conky/Spotify-Widget/Scripts/artist.sh}
 	${goto 95}${voffset 3}${font Adele:size=22}${exec /home/$USER/.conky/Spotify-Widget/Scripts/title.sh}
 
