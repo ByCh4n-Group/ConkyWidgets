@@ -78,4 +78,5 @@ $ path/to/Conky-Widgets/start.sh
 
 ## FAQ
 
-> -Daha sonra burayı dolduracağım-
+> Are you worried about the locations of your widgets?... Do you want to use it even if the computer restarts?
+- [conky-manager](https://teejeetech.com/conky-manager/)
