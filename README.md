@@ -2,7 +2,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/MAINTAINED-YES-green?style=for-the-badge">
   <img src="https://img.shields.io/badge/LICENSE-GPL-blue?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/VaughnValle/kofuku?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/ByCh4n-Group/Conky-Widgets?style=for-the-badge">
 </p>
 
 <p align="center"><i>Made with :heart: by <a href="https://github.com/mhykoI">@mhykoI</a></i></p>
