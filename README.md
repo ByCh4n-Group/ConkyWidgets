@@ -71,7 +71,7 @@ sudo pacman -S conky
 ```
 git clone https://github.com/ByCh4n-Group/Conky-Widgets
 ```
-3. Run the `start.sh` script to start the widget (forks to background):
+3. Run the `conky-widgets.sh` script to start the widget (forks to background):
 ```
 cd Conky-Widgets
 bash conky-widgets.sh
