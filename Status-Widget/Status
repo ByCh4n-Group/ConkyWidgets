@@ -77,7 +77,7 @@ ${goto 35}${top name 3} ${color2}${top cpu 3}%
 ${goto 35}${top name 4} ${color2}${top cpu 4}%
 ${goto 35}${top name 5} ${color2}${top cpu 5}%
 
-${color1}${goto 35}Processes: ${color2}$processes ${color1}Running: ${color}$running_processes
+${color1}${goto 35}Processes: ${color2}$processes ${color1}Running: ${color2}$running_processes
 
 ${color1}${font Oswald:size=16}${font} ${voffset -10} System > $hr${color}
 
