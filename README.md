@@ -10,7 +10,7 @@
 <p align="center">Conky Widgets your computer is set up to make the desktop look aesthetically pleasing and minimalistic.
 
 <div align="center" style="display:inline">
-<img alt="Screenshot of Thumbnail" src="Pic/Thumbnail.png" width="800" />
+<img alt="Screenshot of Thumbnail" src="https://user-images.githubusercontent.com/68022135/148652532-64eddb31-d459-4a05-92f6-7ec8ce57098a.png" width="800" />
 </div>
 
 ### Table of contents
@@ -40,23 +40,23 @@
 
 ### Clock
 > Displays the system time and date
-<img alt="Screenshot of Clock" src="Pic/Time.png" width="500px" />
+<img alt="Screenshot of Clock" src="https://user-images.githubusercontent.com/68022135/148652549-06038205-f536-4ffc-b0dd-99c12f6de13e.png" width="500px" />
 
 ### Status
 > Displays information about the system
-<img alt="Screenshot of Status" src="Pic/Status.png" width="500px" />
+<img alt="Screenshot of Status" src="https://user-images.githubusercontent.com/68022135/148652557-1ec335e8-d403-4e45-9a9f-e932f9287c1a.png" width="500px" />
 
 ### System
 > Shows the storage that the system uses
-<img alt="Screenshot of System" src="Pic/System.png" width="500px" />
+<img alt="Screenshot of System" src="https://user-images.githubusercontent.com/68022135/148652564-ca3973a1-06d2-4116-9702-9fad0b74191d.png" width="500px" />
 
 ### File
 > Shows the disk space used
-<img alt="Screenshot of File" src="Pic/File.png" width="500px" />
+<img alt="Screenshot of File" src="https://user-images.githubusercontent.com/68022135/148652570-028019ad-cc7f-4d16-91c7-687d483a2169.png" width="500px" />
 
 ### Spotify
 > Spotify shows the music being played
-<img alt="Screenshot of Spotify" src="Pic/Spotify.png" width="500px" />
+<img alt="Screenshot of Spotify" src="https://user-images.githubusercontent.com/68022135/148652578-29d25ec3-8f97-44e4-a567-bf178d8e8f28.png" width="500px" />
 
 ## Installation
 
