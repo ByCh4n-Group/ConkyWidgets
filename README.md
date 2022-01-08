@@ -61,18 +61,18 @@
 ## Installation
 
 1. Install all required [packages](#packages):
-```bash
+```
 # Ubuntu
 $ sudo apt install conky
 # Arch
 $ sudo pacman -S conky
 ```
 2. Clone the repo:
-```bash
+```
 $ git clone https://github.com/ByCh4n-Group/Conky-Widgets
 ```
 3. Run the `start.sh` script to start the widget (forks to background):
-```bash
+```
 $ path/to/Conky-Widgets/start.sh
 ```
 
