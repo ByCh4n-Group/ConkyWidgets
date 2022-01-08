@@ -73,7 +73,8 @@ git clone https://github.com/ByCh4n-Group/Conky-Widgets
 ```
 3. Run the `start.sh` script to start the widget (forks to background):
 ```
-path/to/Conky-Widgets/start.sh
+cd Conky-Widgets
+bash conky-widgets.sh
 ```
 
 ## FAQ
