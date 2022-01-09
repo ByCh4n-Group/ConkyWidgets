@@ -24,6 +24,7 @@
   - [File](#file)
   - [Spotify](#spotify)
 - [Installation](#installation)
+- [Autostart](#autostart)
 - [FAQ](#faq)
 
 ## Requirements
@@ -77,7 +78,30 @@ cd Conky-Widgets
 bash conky-widgets.sh
 ```
 
+## Autostart
+
+You would probably like to start it automatically on startup so here is what you can do.
+
+*Note*: You may need to make some changes to suit yourself.
+
+1. Create desktop file
+```
+nano ~/.config/autostart/conky.desktop
+```
+
+2. Paste this into the file
+```
+[Desktop Entry]
+Comment=Collection of conky widgets
+Exec=sleep 3 && ~/.conky/conky-startup.sh > /dev/null 2>&1 &
+Icon=Conky
+Name=Conky
+Terminal=false
+TerminalOptions=
+Type=Application
+```
+
 ## FAQ
 
-> Are you worried about the locations of your widgets?... Do you want to use it even if the computer restarts?
+> Are you worried about the locations of your widgets?
 - [conky-manager](https://teejeetech.com/conky-manager/)
