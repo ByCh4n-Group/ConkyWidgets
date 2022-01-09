@@ -1,4 +1,3 @@
-sleep 0s
 killall conky
 cd "/home/$USER/.conky/Clock-Widget"
 conky -c "/home/$USER/.conky/Clock-Widget/Clock" &
