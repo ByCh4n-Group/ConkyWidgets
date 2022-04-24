@@ -1,0 +1,68 @@
+.\" cwmanager için man sayfası.
+.TH cwmanager 1 "Apr 2022" "2.0.0" "cwmanager man sayfası"
+
+.SH İSİM
+Rice yapmaya conky ile bu gün başlayın :) - ConkyWidgetsManager ( 2.0.0 )
+
+.SH ÖZET
+cwmanager { { --setup widget.. | setup widget.. | -set widget.. } | { --remove widget.. | remove widget.. | -rem widget.. } | { --reload widget.. | reload widget.. | -rel widget.. } | { --version | version | -ver } | { --list [ { --available | -ava } ] | list [ { --available | -ava } ] | -lis [ { --available | -ava } ] } | { --startup widget.. | startup widget.. | -sta widget.. } | { --update | update | -upd } | { --help | * } }
+
+.SH AÇIKLAMA
+Conky Widget'ları bilgisayarınız, masaüstünüzün estetik açıdan hoş görünmesini sağlayacaktır ayrıca minimalist şekilde ayarlanmıştır.
+
+.SH OPSİYONLAR
+8 adet bayrak bulunmaktadır; --setup, --remove, --reload, --version, --list, --startup, --update, --help
+
+.SS kur:
+\'setup\' argümanı ile, yüklemek için var olan widgetleri konfigürasyon dizinine kopyalayabilirsiniz.
+.br
+kullanım: cwmanager --setup file clock status system..
+
+.SS kaldır:
+\'remove\' argümanı ile, kurulu widgetleri kaldırabilirsiniz.
+.br
+kullanım: cwmanager --remove clock system..
+
+.SS yükle:
+\'reload\' argümanı ile, istenilen widgetleri çalıştırabilirsiniz, ama çözünürlük ve çakışma problemleri olabilir, bu durumda önerimiz tüm widgetleri aynı anda açmaya çalışmamanızdır.
+.br
+kullanım: cwmanager --reload file status..
+
+.SS versiyon:
+yalın kullanımda geçerli(kullanılan) sürümü ve yapımcı ve geliştirici(lerin) adını gösterir, Ne zaman ki --parse parametresi ile kullanılırsa, Güncelleyici için geçerli sürümü matematiksel veriye dönüştürür.
+.br
+kullanım: cwmanager --version (--parse)
+
+.SS liste:
+yalın kullanımda var olan widgetleri listeler. Ne zaman ki --available parametreis ile kullanılırsa, kullanıma(çalıştırılmaya) hazır widgetleri görüntüler.
+.br
+kullanım: cwmanager --list (--available)
+
+.SS başlangıç:
+widgetler için konfigürasyon dizinine script oluşturur.
+.br
+kullanım: cwmanager --startup status file system.. > /home/user/.conky/startup.sh 
+
+.SS güncelleme:
+Kendi kendini güncelleme özelliği geçerli (en son sürüm'ü) kurmak için kullanılır. ama betiği doğru bir şekilde kurabileceğinin garantisi yoktur, ayrıca scripti silme ihtimali de vardır, bu durumda scripti kaynağından elle kurmanız gerekebilir. Bizim önerimiz ise projenin github sayfasında bulunan paketlerden sisteminiz için olanı kurmanızdır. Ayrıca bu argüman root haklarına ihtiyaç duyar. 
+.br
+kullanım: cwmanager --update
+
+.SS yardım:
+Bu metni gösterir.
+.br
+kullanım: cwmanager *
+
+.SH AYRICA BAKINIZ
+conky(1) 
+
+.SH BUGLAR
+No known bugs.
+
+.SH YAPIMCI
+Mhykol (Discord: Mhykol#0407)
+
+.SH GELİŞTİRİCİLER
+Mhykol (Discord: Mhykol#0407)
+.br
+lazypwny751 (Github: lazypwny751)

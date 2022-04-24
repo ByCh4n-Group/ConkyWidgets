@@ -1,0 +1,64 @@
+.\" Manpage for cwmanager.
+.TH cwmanager 1 "Apr 2022" "2.0.0" "cwmanager man page"
+.SH NAME
+Start rice today with conky :) - ConkyWidgetsManager ( 2.0.0 )
+.SH SYNOPSIS
+cwmanager { { --setup widget.. | setup widget.. | -set widget.. } | { --remove widget.. | remove widget.. | -rem widget.. } | { --reload widget.. | reload widget.. | -rel widget.. } | { --version | version | -ver } | { --list [ { --available | -ava } ] | list [ { --available | -ava } ] | -lis [ { --available | -ava } ] } | { --startup widget.. | startup widget.. | -sta widget.. } | { --update | update | -upd } | { --help | * } }  
+.SH DESCRIPTION
+Conky Widgets your computer is set up to make the desktop look aesthetically pleasing and minimalistic.
+.SH OPTIONS
+There are 8 flags; --setup, --remove, --reload, --version, --list, --startup, --update, --help
+
+.SS setup:
+With the 'setup' argument, you can reload the available widgets by copying them to the configuration directory or add them to startup. 
+.br
+usage: cwmanager --setup file clock status system..
+
+.SS remove:
+With the 'remove' argument, you can remove copied widgets.
+.br
+usage: cwmanager --remove clock system..
+
+.SS reload:
+the 'reload' argument, you can reload (run) the copied widgets it runs the called widgets, but there may be resolution and conflict problems, so we recommend that do not open all widgets at the same time. 
+.br
+usage: cwmanager --reload file status..
+
+.SS version:
+In plain use it shows the current version and the producer name, when used with the --parse parameter, it converts the current version to mathematical data for the updater.
+.br
+usage: cwmanager --version (--parse)
+
+.SS list:
+Displays the names of the widgets that can be used in plain use. When used with the --available parameter, it displays the copied and ready to use widgets. 
+.br
+usage: cwmanager --list (--available)
+
+.SS startup:
+used to save available widgets as startup script in the configuration directory.
+.br
+usage: cwmanager --startup status file system.. > /home/user/.conky/startup.sh 
+
+.SS update:
+self update feature is used to install the current version of the program in an automated way. but there is no guarantee that can be install the script correctly, there is also the possibility of deleting the script, in this case you may need to install it manually. Our recommendation is to install the appropriate package for your system. Also root privalages needed. 
+.br
+usage: cwmanager --update
+
+.SS help:
+Show's this text. 
+.br
+usage: cwmanager *
+
+.SH SEE ALSO
+conky(1) 
+
+.SH BUGS
+No known bugs.
+
+.SH AUTHOR
+Mhykol (Discord: Mhykol#0407)
+
+.SH CONTRIBUTORS
+Mhykol (Discord: Mhykol#0407)
+.br
+lazypwny751 (Github: lazypwny751)
