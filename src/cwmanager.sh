@@ -17,7 +17,7 @@
 #    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 export version="2.0.0" quit_cleanly="yes" cwmhome="/usr/share/cwmanager" cwd="${PWD}"
-export widgets=("clock|Clock-Widget/Clock" "file|File-Widget/File" "spotify|Spotify-Widget/Spotify" "status|Status-Widget/Status" "system|System-Widget/System")
+export widgets=("clock|Clock-Widget/Clock.lua" "file|File-Widget/File.lua" "spotify|Spotify-Widget/Spotify.lua" "status|Status-Widget/Status.lua" "system|System-Widget/System.lua")
 
 __fatal() {
     [[ -v "${2}" ]] && local exit_status="${2}" || local exit_status="1"
