@@ -3,15 +3,14 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 from PyQt5.QtCore import Qt
 from time import sleep
 
-
-
+version = "2.0.0"
 
 class Ui_MainWindow(object):
 
     def setupUi(self, MainWindow):
         self.the_list = []
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(380, 234)
+        MainWindow.setFixedSize(390, 230)
 
 
         self.centralwidget = QtWidgets.QWidget(MainWindow)
@@ -73,7 +72,7 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Conky Widget Manager"))
-        self.label.setText(_translate("MainWindow", "   Conky Widget Manager Ver.2"))
+        self.label.setText(_translate("MainWindow", f"Conky Widget Manager Ver {version}"))
         self.pushButton.setText(_translate("MainWindow", "Ok"))
         self.pushButton_2.setText(_translate("MainWindow", "Quit"))
         self.checkBox.setText(_translate("MainWindow", "Clock"))
