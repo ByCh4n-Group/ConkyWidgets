@@ -75,30 +75,12 @@ git clone https://github.com/ByCh4n-Group/Conky-Widgets
 3. Run the `conky-widgets.sh` script to start the widget (forks to background):
 ```
 cd Conky-Widgets
-bash conky-widgets.sh
+bash configure.sh && sudo make install
 ```
 
-## Autostart
-
-You would probably like to start it automatically on startup so here is what you can do.
-
-*Note*: You may need to make some changes to suit yourself.
-
-1. Create desktop file
-```
-nano ~/.config/autostart/conky.desktop
-```
-
-2. Paste this into the file
-```
-[Desktop Entry]
-Comment=Collection of conky widgets
-Exec=sleep 3 && ~/.conky/conky-startup.sh > /dev/null 2>&1 &
-Icon=Conky
-Name=Conky
-Terminal=false
-TerminalOptions=
-Type=Application
+## Usage
+```bash
+Type 'cwmanager --help' for more information after the installation.
 ```
 
 ## FAQ
