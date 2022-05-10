@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=2.0.0
+Name=Conky Widget Manager
+Comment=Start rice today with conky :) 
+Exec=python3 /usr/share/cwmanager/gui/gui.py
+Icon=/usr/share/cwmanager/cwmanager.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utilities;Accessoires;

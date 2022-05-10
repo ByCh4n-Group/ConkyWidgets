@@ -40,7 +40,7 @@ check() {
     fi
 }
 
-check mkdir install cp make conky
+check mkdir install cp make conky python3
 
 tabs 8
 t="$(printf '\t')"
@@ -51,14 +51,15 @@ CWHOME = /usr/share/cwmanager
  
 install:
 ${t}mkdir -p \$(CWHOME)
-${t}cp ./Makefile \$(CWHOME)
+${t}cp ./Makefile ./src/cwmanager.png \$(CWHOME)
 ${t}cp -r ./src/gui \$(CWHOME)
 ${t}cp -r ./src/widgets \$(CWHOME)
 ${t}install -m 755 ./src/cwmanager.sh \$(PRE)/cwmanager
 ${t}@bash ./genmanpage.sh
 ${t}pip3 install -r requirements.txt
+${t}cp ./src/cwmanager.desktop /usr/share/applications/cwmanager.desktop
 
 uninstall:
-${t}rm -rf \$(CWHOME) \$(PRE)/cwmanager /usr/share/man/man1/cwmanager.1.gz /usr/share/man/tr/man1/cwmanager.1.gz
+${t}rm -rf \$(CWHOME) \$(PRE)/cwmanager /usr/share/man/man1/cwmanager.1.gz /usr/share/man/tr/man1/cwmanager.1.gz /usr/share/applications/cwmanager.desktop
 EOF
 echo "Now you can type the magic word!: 'sudo make install' :)."

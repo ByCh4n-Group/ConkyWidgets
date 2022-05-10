@@ -3,6 +3,9 @@
 ############
 #Discord: Mhykol#0407
 
+x = 300
+y = 200 
+
 background yes
 use_xft yes
 xftfont Liberation Sans:size=9
@@ -26,8 +29,8 @@ default_shade_color 000000
 default_outline_color 828282
 default_bar_size 240 2
 alignment top_left
-gap_x 50
-gap_y 730
+gap_x x
+gap_y y
 no_buffers yes
 uppercase no
 cpu_avg_samples 2
