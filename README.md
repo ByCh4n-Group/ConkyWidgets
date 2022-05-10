@@ -27,16 +27,6 @@
 - [Autostart](#autostart)
 - [FAQ](#faq)
 
-## Requirements
-
-### Packages
-
-- [conky](https://github.com/brndnmtthws/conky/)
-
-> Ubuntu: `sudo apt install conky`
-
-> Arch: `sudo pacman -S conky`
-
 ## Widgets
 
 ### Clock
@@ -64,9 +54,9 @@
 1. Install all required [packages](#packages):
 ```
 # Ubuntu
-sudo apt install conky
+sudo apt install conky python3 python3-pip
 # Arch
-sudo pacman -S conky
+sudo pacman -S conky python python-pip
 ```
 2. Clone the repo:
 ```
