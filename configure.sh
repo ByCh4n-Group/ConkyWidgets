@@ -48,7 +48,7 @@ t="$(printf '\t')"
 cat - > Makefile <<EOF
 PRE = /usr/bin
 CWHOME = /usr/share/cwmanager
- 
+
 install:
 ${t}mkdir -p \$(CWHOME)
 ${t}cp ./Makefile ./src/cwmanager.png \$(CWHOME)

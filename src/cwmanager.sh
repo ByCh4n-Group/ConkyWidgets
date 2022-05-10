@@ -237,6 +237,14 @@ case "${1}" in
     [sS][tT][aA][rR][tT][uU][pP]|--[sS][tT][aA][rR][tT][uU][pP]|-[sS][tT][aA])
         write:startup() {
             echo -e "if [[ -f "${HOME}/.conky/${dirname}/conf.sh" ]] ; then\n\tbash "${HOME}/.conky/${dirname}/conf.sh" || return 1\nfi\n\nconky -c ${HOME}/.conky/${realname} &" >> "${HOME}/.conky/startup.sh" && echo "'${i}' added to startup.sh"
+            if [[ -d "${HOME}/.config/autostart" ]] ; then
+                echo "[Desktop Entry]
+Exec=${HOME}/.conky/autostart.sh
+Icon=/usr/share/cwmanager/cwmanager.png
+Name=cwmanager autostart
+Terminal=false
+" > "${HOME}/.config/autostart/cwmautostart.desktop"
+            fi
         }
         
         killall conky &> /dev/null
